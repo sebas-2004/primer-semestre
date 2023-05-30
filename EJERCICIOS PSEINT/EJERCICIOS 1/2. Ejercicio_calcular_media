@@ -1,0 +1,24 @@
+Algoritmo calcular_media_serie_numeros
+	Definir Cant_Num, Suma, Num_Ingresado, Media, Num_Cero Como Entero
+	
+	Suma<-0;
+	Media<-0;
+	Num_Cero<-0;
+	
+	Escribir ("ingresa la cantidad de numeros");
+	Leer Cant_Num
+	
+	Para i=1 Hasta Cant_Num Con Paso 1 Hacer
+		Escribir("ingrese un numero");
+		Leer Num_Ingresado;
+		
+		Suma<-Suma+Num_Ingresado;
+	FinPara
+	
+	Media<-Suma/Cant_Num;
+	
+	Escribir (Num_Cero)
+	Escribir "la media es: ",Media;
+	
+	
+FinAlgoritmo

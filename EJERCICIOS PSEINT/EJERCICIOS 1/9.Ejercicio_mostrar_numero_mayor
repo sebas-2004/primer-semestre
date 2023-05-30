@@ -1,0 +1,28 @@
+Algoritmo mostrar_numero_mayor
+	Definir Num_1,Num_2,Num_3,Num_mayor Como Entero
+	
+	Escribir ("ingrese el numero 1")
+	leer Num_1
+	Escribir ("ingrese el numero 2")
+	leer Num_2
+	Escribir ("ingrese el numero 3")
+	leer Num_3
+	
+	SI Num_1>Num_2 Y Num_1>Num_3 Entonces
+		Num_mayor<-Num_1
+		Escribir "el numero mayor es :", Num_mayor
+		
+	SINO
+		SI Num_2>Num_1 Y Num_2>Num_3 Entonces
+		Num_mayor<-Num_2
+		Escribir "el numero mayor es :", Num_mayor
+
+SINO
+	SI Num_3>Num_1 Y Num_3>Num_2 Entonces
+		Num_mayor<-Num_3
+		Escribir "el numero mayor es :", Num_mayor
+	FinSi
+FinSi
+	FinSi
+	
+FinAlgoritmo

@@ -1,0 +1,26 @@
+Algoritmo calcular_valor_neto_y_valor_bruto
+	Definir Nombre como caracter;
+	Definir Num_horas, Impuestos_pagar, Valor_hora Como Entero;
+	Definir Salario_bruto, Salario_neto Como Entero;
+	
+	Escribir ("ingrese un nombre ");
+	Leer Nombre;
+	Escribir ("ingrese el numero de horas");
+	Leer Num_horas;
+	Escribir ("ingrese el impuesto a pagar");
+	Leer Impuestos_pagar;
+	Escribir ("ingrese valor de la hora");
+	Leer Valor_hora;
+	
+	Salario_bruto <- Num_horas*Valor_hora;
+	
+	Salario_neto <- Salario_bruto-Impuestos_pagar;
+	
+	Escribir "el nombre es: ",Nombre;
+	Escribir "el salario bruto es: ",Salario_bruto;
+	Escribir "el salario neto es: ",Salario_neto;
+	
+	
+	
+	
+FinAlgoritmo

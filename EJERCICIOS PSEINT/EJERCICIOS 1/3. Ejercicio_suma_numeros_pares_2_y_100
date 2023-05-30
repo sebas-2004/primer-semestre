@@ -1,0 +1,13 @@
+Algoritmo suma_numeros_pares_2_y_100
+	Definir Suma, i Como Entero
+	
+	Suma<-0;
+	
+	para i= 2 Hasta 100 Con Paso 2 Hacer
+		Suma<-Suma+i
+		
+	FinPara
+	
+	Escribir "la suma de los numeros pares comprendidos entre 2 y 100 es: ", Suma
+	
+FinAlgoritmo

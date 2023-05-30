@@ -1,0 +1,24 @@
+Algoritmo calcular_salario_mensual
+	Definir Precio_Hora, Horas_Mensual, Salario, Salario_Total, Cant_Hora_Extra, Precio_Hora_Extra, Salario_Extra Como Entero
+	
+	Escribir ("ingrese el precio de la hora");
+	Leer Precio_Hora
+	Escribir ("cantidad de horas mensuales");
+	Leer Horas_Mensual
+	
+	si(Horas_Mensual<=160)
+		Salario<-Horas_Mensual*Precio_Hora
+		Salario_Total<-Salario
+		Escribir "salario mensual es: ",Salario_Total
+	SiNo
+		Cant_Hora_Extra<-Horas_Mensual-160
+		Precio_Hora_Extra<-Precio_Hora*1.5
+		Salario_Extra<-Precio_Hora_Extra*Cant_Hora_Extra
+		Salario<-Precio_Hora*160
+		Salario_Total<-Salario+Salario_Extra
+		
+		Escribir "salario mensual es: ",Salario_Total
+		
+	FinSi
+	
+FinAlgoritmo

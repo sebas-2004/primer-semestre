@@ -1,0 +1,16 @@
+Algoritmo calcular_el_productos_de_los_n_primeros_numeros_naturales
+	Definir n,Producto,i Como Entero
+	Producto<-1
+	
+	Escribir ("ingrese la cantidad de numeros a calcular el prducto");
+	Leer n
+	
+	Para i=1 Hasta n con paso 1 hacer
+		Producto=Producto*i
+		
+	FinPara
+	
+	Escribir "el producto de la cantidad de numeros es: ",Producto
+	
+	
+FinAlgoritmo

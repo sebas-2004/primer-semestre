@@ -1,0 +1,13 @@
+Algoritmo suma_de_los_cincuenta_numeros_enteros
+	
+	Definir Suma, i Como Entero
+	
+	Suma<-0;
+	
+	para i= 0 Hasta 50 Con Paso 1 Hacer
+		Suma<-Suma+i
+	FinPara
+	
+	Escribir "la suma de los primeros numeros enteros es : ", Suma
+		
+FinAlgoritmo

@@ -1,0 +1,15 @@
+Algoritmo calcular_costo_total_llamada
+	Definir Duracion_llamada,Costo_total_llamada Como Entero
+	
+	Escribir ("ingrese la duracion de la llamada ")
+	Leer Duracion_llamada
+	
+	SI Duracion_llamada<=3 Entonces
+		Costo_total_llamada=10
+	SiNo
+		Costo_total_llamada=10 + (Duracion_llamada - 3) * 5
+	FinSi
+	
+	Escribir "el costo total de la llamada es :",Costo_total_llamada
+	
+FinAlgoritmo

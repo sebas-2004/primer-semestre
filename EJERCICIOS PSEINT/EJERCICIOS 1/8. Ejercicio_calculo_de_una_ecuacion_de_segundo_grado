@@ -1,0 +1,26 @@
+Algoritmo calculo_de_una_ecuacion_de_segundo_grado
+	Definir A,B,C,D,X,X1,X2 Como Real
+	
+	Escribir ("ingrese el valor de A")
+	Leer A
+	Escribir ("ingrese el valor de B")
+	Leer B
+	Escribir ("ingrese el valor de C")
+	Leer C
+	
+	D = B^2 - 4*A*C
+	
+	SI D >0 Entonces
+		X1 = (-B + Raiz(D)) / (2*A)
+		X2 = (-B - Raiz(D)) / (2*A)
+		
+		Escribir "las soluciones de la ecuacion son X1: ",X1," X2: ",X2
+		
+	SiNo
+		
+		X= -B/(2*A)
+		Escribir "la solución de la ecuacion es X: ",X
+		
+	FinSi
+	
+FinAlgoritmo

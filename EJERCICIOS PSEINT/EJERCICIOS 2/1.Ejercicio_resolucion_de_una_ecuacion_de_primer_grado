@@ -1,0 +1,11 @@
+Algoritmo resolucion_de_una_ecuacion_de_primer_grado
+	Definir A,B,X Como Real
+	Escribir ("ingrese el valor de A")
+	Leer A
+	Escribir ("ingrese el valor de B")
+	Leer B
+	
+	X = -B / A
+	Escribir "el valor de X es :", X
+	
+FinAlgoritmo
